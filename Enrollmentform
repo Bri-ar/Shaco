@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Enrollment Form</title>
+        </head>
+    <body style="margin: 50px; background-color: #99DFFF;">
+<center>
+    <h1>BASIC EDUCATION ENROLLMENT FORM</h1>
+        <p>THIS FORM IS NOT FOR SALE</p>
+</center>
+        <p style="float: left;">School Year &nbsp &nbsp <input type="text" name="schoolyear" placeholder="School Year">
+<br>
+<br>
+    Grade level to Enroll: &nbsp &nbsp <input type="text" name="grade level to enroll" placeholder="Grade level to Enroll"></p>
+    <p style="border: solid black 2px; float: right; padding: 5px;"> 
+<br>
+    &nbsp Check the appropriate box only 
+<br>
+<br>
+    &nbsp &nbsp &nbsp &nbsp 1. With LRN? &nbsp <input type="radio" name="lrn"> &nbsp Yes &nbsp &nbsp <input type="radio" name="lrn"> &nbsp No &nbsp &nbsp &nbsp &nbsp    &nbsp &nbsp &nbsp &nbsp 2. Returning (Balik-Aral) &nbsp &nbsp &nbsp <input type="radio" name="balik-aral"> Yes &nbsp &nbsp &nbsp &nbsp &nbsp <input type="radio" name="balik-aral"> No    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </p>
+    <p style="clear: both;"> <strong>INSTRUCTIONS:</strong>
+<br>
+    &nbsp &nbsp &nbsp Print legibly all information required in CAPITAL letters. Submit accomplished form to the Person-in-Charge/Registrar/Class Adviser. Use black or  blue pen only.</p>
+    <div style="border-top: solid black 2px; border-bottom: solid black 2px; background-color: #B9BBC9;">
+<br>
+<br>
+</div>
+    <p style="clear: right;">&nbsp &nbsp PSA Birth Certificate No. (if available upon registration) <input type="text" name="psa" placeholder="PSA Birth Certificate No."> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Learner Reference No. (LRN) <input type="text" name="lrn" placeholder="Learner Reference No.">
+<br>
+<br>
+    &nbsp &nbsp &nbsp &nbsp Last Name &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Birthdate (mm/dd/yyyy) &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <textarea name="place of birth" rows="4" cols="30" placeholder="Place of Birth (Municipality/City)"></textarea>
+<br>
+    &nbsp &nbsp &nbsp &nbsp <input type="text" name="lastname" placeholder="Last Name"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input type="date" name="bday"> 
+<br>
+<br>
+    &nbsp &nbsp &nbsp &nbsp First Name &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Sex &nbsp &nbsp &nbsp &nbsp &nbsp <input type="radio" name="seggs"> Male &nbsp &nbsp &nbsp &nbsp &nbsp Age <input type="text" name="age" placeholder="Age" style="width: 6%; height: 10%;"> <textarea name="mothertounge" rows="4" cols="30" placeholder="Mother Tongue" style="float: right; margin-right: 7%;"></textarea>
+<br>
+    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input type="text" name="firstname" placeholder="First name">
+<br>
+    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input type="radio" name="seggs"> Female
+<br>
+<br>
+    &nbsp &nbsp &nbsp &nbsp Middle Name &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Belonging to any Indigenous Peoples (IP) Community/Indigenous Cultural Community
+<br>
+    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input type="text" name="middlename" placeholder="Middle Name"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input type="radio" name="4ps"> Yes &nbsp &nbsp &nbsp &nbsp <input type="radio" name="4ps"> No &nbsp &nbsp &nbsp &nbsp  If Yes, please specify: <input type="text" name="specify" placeholder="Type here" style="width: 22%;">
+<br>
+<br>
+<br>
+    &nbsp &nbsp &nbsp &nbsp Extension Name e.g. Jr., III (if applicable) &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Is your family a beneficiary of 4Ps? &nbsp &nbsp &nbsp &nbsp &nbsp 
+	&nbsp &nbsp <input type="radio" name="4ps"> Yes &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input type="radio" name="4ps"> No
+<br>
+    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input type="text" name="extension" placeholder="Extension Name">
+<br>
+	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp If yes, write the 4Ps Household ID Number below
+<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input type="text" name="householdnumber" placeholder="House ID No.">
+<br>
+<br>
+    <h1 style="border-top: solid black 2px; border-bottom: solid black 2px; background-color: #B9BBC9;">Current Address </h1>
+<div style="display: flex; gap: 10px;"> 
+    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <textarea name="houseno." rows="4" cols="30" placeholder="House No."></textarea>
+    <textarea name="placeofbirth" rows="3" cols="50" placeholder="Sitio/Street Name"></textarea>
+    <textarea name="barangay" rows="3" cols="80" placeholder="Barangay"></textarea> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+</div>
+<br>
+<div style="display: flex; gap: 10px;">
+    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <textarea name="municpality" rows="3" cols="50" placeholder="Municipality/City"></textarea>
+    <textarea name="province" rows="3" cols="23" placeholder="Province"></textarea>
+    <textarea name="country" rows="3" cols="40" placeholder="Country"></textarea>
+    <textarea name="zipcode" rows="3" cols="30" placeholder="Zip Code"></textarea> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+</div>
+    <h4 style="border-top: solid black 2px; border-bottom: solid black 2px; background-color: #B9BBC9;"> &nbsp &nbsp &nbsp &nbsp Permanent Address &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Same with your Current Address? &nbsp &nbsp &nbsp &nbsp <input type="radio" name="address"> Yes &nbsp &nbsp &nbsp &nbsp <input type="radio" name="address"> No</h4>
+<div style="display: flex; gap: 10px;"> 
+    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <textarea name="street" rows="4" cols="30" placeholder="House No./Street"></textarea>
+    <textarea name="streetname" rows="4" cols="50" placeholder="Street Name"></textarea>
+    <textarea name="barangay" rows="4" cols="80" placeholder="Barangay"></textarea> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+</div>
+<br>
+<div style="display: flex; gap: 10px;">
+    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <textarea name="municipality" rows="3" cols="50" placeholder="Municipality/City"></textarea>
+    <textarea name="province" rows="3" cols="23" placeholder="Province"></textarea>
+    <textarea name="country" rows="3" cols="40" placeholder="Country"></textarea>
+    <textarea name="zipcode" rows="3" cols="30" placeholder="Zip Code"></textarea> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+</div>
+    <h1 style="border-top: solid black 2px; border-bottom: solid black 2px; background-color: #B9BBC9; text-align: center;">PARENT'S/GUARDIAN'S INFORMATION </h1>
+    <p> &nbsp &nbsp &nbsp &nbsp Father's Name</p>
+<div style="display: flex; gap: 10px;">
+    &nbsp &nbsp &nbsp &nbsp <textarea name="lastname" rows="3" cols="50" placeholder="Last Name"></textarea>
+    <textarea name="firstname" rows="3" cols="50" placeholder="First Name"></textarea>
+    <textarea name="middlename" rows="3" cols="50" placeholder="Middle Name"></textarea>
+    <textarea name="contactnumber" rows="3" cols="50" placeholder="Contact Number"></textarea> &nbsp &nbsp &nbsp &nbsp
+</div>
+    <p> &nbsp &nbsp &nbsp &nbsp Mother’s Maiden Name</p>
+<div style="display: flex; gap: 10px;">
+    &nbsp &nbsp &nbsp &nbsp <textarea name="lastname" rows="3" cols="50" placeholder="Last Name"></textarea>
+    <textarea name="firstname" rows="3" cols="50" placeholder="First Name"></textarea>
+    <textarea name="middlename" rows="3" cols="50" placeholder="Middle Name"></textarea>
+    <textarea name="contactnumber" rows="3" cols="50" placeholder="Contact Number"></textarea> &nbsp &nbsp &nbsp &nbsp
+</div>
+    <p> &nbsp &nbsp &nbsp &nbsp Legal Guardian’s Name</p>
+<div style="display: flex; gap: 10px;">
+    &nbsp &nbsp &nbsp &nbsp <textarea name="lastname" rows="3" cols="50" placeholder="Last Name"></textarea>
+    <textarea name="firstname" rows="3" cols="50" placeholder="First Name"></textarea>
+    <textarea name="middlename" rows="3" cols="50" placeholder="Middle Name"></textarea>
+    <textarea name="contactnumber" rows="3" cols="50" placeholder="Contact Number"></textarea> &nbsp &nbsp &nbsp &nbsp
+</div>
+    <h1 style="border-top: solid black 2px; border-bottom: solid black 2px; background-color: #B9BBC9; text-align: center;">For Returning Learner (Balik-Aral) and Those Who will Transfer/Move In</h1>
+    <p> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Last Grade Level Completed &nbsp &nbsp <input type="text" name="gradelevel" placeholder="Last Grade Level Completed"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Last School Year Completed &nbsp &nbsp <input type="text" name="lastschoolyearcompleted" placeholder="Last School Year Completed">
+<br>
+<br>
+    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Last School Attended &nbsp &nbsp <input type="text" name="lschat" placeholder="Last School Attended"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp School ID &nbsp &nbsp <input type="text" name="schoolid" placeholder="School ID">
+</p>
+    <h1 style="border-top: solid black 2px; border-bottom: solid black 2px; background-color: #B9BBC9; text-align: center;">For Learnersin Senior High School </h1>
+    <p> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Semester &nbsp &nbsp <input type="radio" name="semester"> 1st &nbsp &nbsp <input type="radio" name="semester"> 2nd &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Track <input type="text" name="track" placeholder="Track">
+<br>
+<br>
+    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Strand <input type="text" name="strand" placeholder="Strand"></p>
+    <p style="border: solid black 2px;">
+<br>
+    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp If school will implement other distance learning modalities aside from face-to-face instruction, what would you prefer for your child?
+<br>
+<br>
+    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Choose all that apply:
+<br>
+<br>
+    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input type="checkbox" name="module(p)"> Modular (Print) &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input type="checkbox" name="online"> Online &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input type="checkbox" name="rad"> Radio-Based Instruction &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input type="checkbox" name="blended"> Blended
+<br>
+<br>
+    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input type="checkbox" name="modular(d)"> Modular (Digital) &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input type="checkbox" name="eductv"> Educational Television &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input type="checkbox" name="home"> Homeschooling 
+<br>
+<br>
+<br> </p>
+    <p>&nbsp &nbsp &nbsp &nbsp I hereby certify that the above information given are true and correct to the best of my knowledge and I allow the Department of Education
+<br>
+    to use my child's details to ceat and/or update his/her learner profile in the Learner Information System. The inforation herein shall be treated
+<br>
+    as confidential in compliance with the Data Privacy Act of 2012.
+<br>
+<br>
+<br>
+    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input type="text" name="sign" placeholder="Signature"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input type="date" name="date">
+<br>
+    Signature Over Printed Name of Parent/Guardian &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Date
+</p>
+</html>
+</body>
